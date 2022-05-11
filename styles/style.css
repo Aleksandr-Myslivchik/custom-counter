@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.counter-block{
+    display: flex;
+    align-items: center;
+}
+.buttons {
+    margin-right: 8px;
+}
+.counter-button {
+    cursor: pointer;
+     width: 40px;
+     height: 40px;
+    border-radius: 8px;
+}
+.counter-lable{}
+.increment{}
+.decrement{}
+.counter-increment{}
+.counter-decrement{}
+.counter-value{}
