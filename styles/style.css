@@ -4,23 +4,45 @@
     box-sizing: border-box;
 }
 
+button {
+    cursor: pointer;
+}
 
-.counter-block{
+button[disabled]{
+    cursor: initial;
+}
+
+
+
+.counter-block {
     display: flex;
     align-items: center;
 }
+
 .buttons {
     margin-right: 8px;
 }
+
 .counter-button {
-    cursor: pointer;
-     width: 40px;
-     height: 40px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
 }
-.counter-lable{}
-.increment{}
-.decrement{}
-.counter-increment{}
-.counter-decrement{}
-.counter-value{}
+
+.counter-lable {
+}
+
+.increment {
+}
+
+.decrement {
+}
+
+.counter-increment {
+}
+
+.counter-decrement {
+}
+
+.counter-value {
+}
