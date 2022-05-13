@@ -12,10 +12,10 @@ export class Counter {
         this.#minValue = minValue
         this.#maxValue = maxValue
         this.#counterBlock = htmlElement
-        this.init()
+        this.#init()
     }
 
-    init() {
+    #init() {
 
         const incrementButton = this.#counterBlock.querySelector('.increment')
         const decrementButton = this.#counterBlock.querySelector('.decrement')
